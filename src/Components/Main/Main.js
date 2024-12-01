@@ -10,7 +10,7 @@ const Main = (props) => {
   const language = props.language;
   const smallScreen = props.smallScreen;
   const curriculumInfos =
-    language === 'Français' ? curriculumInfosFr : curriculumInfosEn;
+    language === 'fr' ? curriculumInfosFr : curriculumInfosEn;
 
   return (
     <div className={`main-container ${smallScreen ? 'small-screen-size' : ''}`}>

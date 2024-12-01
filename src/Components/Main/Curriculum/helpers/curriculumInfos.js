@@ -7,7 +7,7 @@ export const curriculumInfosFr = {
         title:
           'Pré MSc, Titre RNCP - Responsable de Projet Web et Mobile (Niveau 6 – Equivalent Bac+3/4)',
         subtitle:
-          'Epitech, Ecole de l’Innovation et de l’Expertise Informatique - Nancy',
+          "Epitech, Ecole de l'Innovation et de l'Expertise Informatique - Nancy",
       },
       {
         date: '2021 - 2022',
@@ -25,7 +25,7 @@ export const curriculumInfosFr = {
       {
         date: '2016 - 2018',
         title:
-          'Master Sciences Pour l’Ingénieur - Modélisation et Simulation en Mécanique des Solides et des Structures',
+          "Master Sciences Pour l'Ingénieur - Modélisation et Simulation en Mécanique des Solides et des Structures",
         subtitle: 'Université Pierre et Marie Curie (UPMC) - Paris',
         subtitle2: 'École Nationale des Ponts et Chaussées (ENPC) - Paris',
       },
@@ -35,26 +35,24 @@ export const curriculumInfosFr = {
     sectionTitle: 'EXPERIENCES',
     data: [
       {
-        date: 'Jan.2022 - Aujourd’hui',
-        title:
-          'Développeur Angular / .NET - Logiciel de recouvrement de créances',
-        subtitle: 'ASTON iTF - Nancy',
+        date: "Jan.2022 - Aujourd'hui",
+        title: 'Développeur Angular - Logiciel de recouvrement de créances',
+        subtitle: 'ASTON AI - Nancy',
         list: [
-          'Développement des interfaces web (Angular / RXJS)',
-          'Gestion de l’état de l’application (NGRX)',
-          'Développement et évolution du code métier backend (C# / .NET)',
-          'Methode Agile, intégration continue, code review...',
+          "Développement de l'UI (Angular / RXJS / Signals)",
+          "Gestion de l'état de l'application (NGRX / Signal Stores)",
+          'Approche craftsmanship, Methode Agile, intégration continue, TUs, code review, TSLint...',
         ],
       },
       {
         date: 'Jan.2019 - Juil.2020',
         title:
-          'Ingénieur Calcul - Certification du carter d’échappement du GE9X',
+          "Ingénieur Calcul - Certification du carter d'échappement du GE9X",
         subtitle: 'Safran Aircraft Engines - Corbeil',
         list: [
           'Sous-traitance et post-traitement de calculs de structures sous Patran',
-          'Analyse et présentation des résultats à Safran ainsi qu’à GE (en anglais)',
-          'Participation aux études de redesign du carter d’échappement du GE9X',
+          "Analyse et présentation des résultats à Safran ainsi qu'à GE (en anglais)",
+          "Participation aux études de redesign du carter d'échappement du GE9X",
         ],
       },
       {
@@ -62,7 +60,7 @@ export const curriculumInfosFr = {
         title: 'Ingénieur R&D - Optimisation de tissage pour application pièce',
         subtitle: 'Safran Aircraft Engines - Villaroche',
         list: [
-          'Modélisation, simulation et analyse mécanique de composites tissés 3D à l’échelle mésoscopique',
+          "Modélisation, simulation et analyse mécanique de composites tissés 3D à l'échelle mésoscopique",
           'Présentation des études lors de réunions inter-métier (RIM)',
           'Report des bugs logiciels pour correction des modélisations',
         ],
@@ -74,7 +72,7 @@ export const curriculumInfosFr = {
     data: [
       {
         sublist: [
-          'Création d’une SPA from scratch en utilisant la MERN stack',
+          "Création d'une SPA from scratch en utilisant la MERN stack",
           [
             {
               url: 'https://github.com/benjamin-achouche/sc2-weapon-maker',
@@ -82,9 +80,7 @@ export const curriculumInfosFr = {
             },
           ],
 
-          'Création d’une SPA en Vanilla JavaScript (Smartphone uniquement)',
-          [{ url: 'https://mariage-cb.web.app', name: 'Site Web' }],
-
+          "Développement actif d'un framework pour la conception de jeux Sonic (Unity / C#)",
           'Modification de jeux vidéo en C++',
         ],
       },
@@ -129,13 +125,12 @@ export const curriculumInfosEn = {
     data: [
       {
         date: 'Jan.2022 - Today',
-        title: 'Angular / .NET Developer- Debt collection software',
-        subtitle: 'ASTON iTF - Nancy',
+        title: 'Angular Developer- Debt collection software',
+        subtitle: 'ASTON AI - Nancy',
         list: [
-          'Web interfaces development (Angular / RXJS)',
-          'Application state management (NGRX)',
-          'Development and evolution of the backend business code (C# / .NET)',
-          'Agile method, continuous integration, code review...',
+          'UI development (Angular / RXJS / Signals)',
+          'Application state management (NGRX / Signal Stores)',
+          'Craftsmanship approach, Agile method, continuous integration, UTs, code review, TSLint...',
         ],
       },
       {
@@ -173,8 +168,7 @@ export const curriculumInfosEn = {
             },
           ],
 
-          'Creation of a SPA programmed in Vanilla JavaScript (Smartphone only)',
-          [{ url: 'https://mariage-cb.web.app', name: 'Website' }],
+          'Active development of a Sonic game sandbox framework (Unity / C#)',
           'Various video games modding, using C++',
         ],
       },

@@ -16,7 +16,7 @@ header {
   padding: 0 30px 30px 0;
 }
 
-.language-button {
+.action-button {
   background-color: rgb(59, 116, 131);
   color: white;
   font-size: large;
@@ -28,7 +28,7 @@ header {
   cursor: pointer;
 }
 
-.language-button:active {
+.action-button:active {
   background-color: rgb(90, 157, 173);
 }
 
@@ -69,6 +69,15 @@ header {
   border-radius: 10px;
 }
 
+.download-button {
+  margin-left: 1rem;
+  width: 50px;
+}
+
+.svg-color {
+  color: white;
+}
+
 @media (max-width: 1024px) {
 }
 
@@ -95,7 +104,7 @@ header {
     right: 5px;
   }
 
-  .language-button {
+  .action-button {
     font-size: medium;
     width: 80px;
     height: 25px;

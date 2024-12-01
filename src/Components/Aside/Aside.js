@@ -8,7 +8,7 @@ const Aside = (props) => {
   const language = props.language;
   const smallScreen = props.smallScreen;
 
-  const asideInfos = language === 'Français' ? asideInfosFr : asideInfosEn;
+  const asideInfos = language === 'fr' ? asideInfosFr : asideInfosEn;
 
   return (
     <div
@@ -19,16 +19,13 @@ const Aside = (props) => {
         <div className="aside-text">
           <article>
             <h3>CONTACT</h3>
-            <p className="aside-hide-text">
-              13 rue de Bourgogne{<br />}57160 Moulins-lès-Metz
-            </p>
-            <p className="aside-hide-text email">benjaminachouche</p>
-            <p className="aside-hide-text">(33) 6 58 91 50 15</p>
+            <p className="aside-hide-text">benjaminachouche@gmail.com</p>
+            <p className="aside-hide-text">(+33)6 58 91 50 15</p>
           </article>
           <PersonalInfos
             persoInfosKey="aboutKey"
             type="nolist"
-            title={language === 'Français' ? 'A PROPOS' : 'ABOUT ME'}
+            title={language === 'fr' ? 'A PROPOS' : 'ABOUT ME'}
             text={asideInfos.about}
           />
           <PersonalInfos
@@ -38,9 +35,7 @@ const Aside = (props) => {
             text={asideInfos.skillsText}
             type="componentList"
             title={
-              language === 'Français'
-                ? 'COMPETENCES TECHNIQUES'
-                : 'TECHNICAL SKILLS'
+              language === 'fr' ? 'COMPETENCES TECHNIQUES' : 'TECHNICAL SKILLS'
             }
             subComponentType={['list', 'list', 'list']}
             subComponentTitle={asideInfos.skillsListItems}
@@ -53,20 +48,20 @@ const Aside = (props) => {
           <PersonalInfos
             persoInfosKey="languageKey"
             type="list"
-            title={language === 'Français' ? 'LANGUES' : 'LANGUAGES'}
+            title={language === 'fr' ? 'LANGUES' : 'LANGUAGES'}
             listItems={asideInfos.language}
             bonusText="(TOEIC : 950/990)"
           />
           <PersonalInfos
             persoInfosKey="interestsKey"
             type="list"
-            title={language === 'Français' ? "CENTRES D'INTERET" : 'HOBBIES'}
+            title={language === 'fr' ? "CENTRES D'INTERET" : 'HOBBIES'}
             listItems={asideInfos.interests}
             bonusText={[
               '',
-              language === 'Français' ? '(17 ans)' : '(17 years)',
+              '',
               '(Sonic Hacking Contest 2018 - 2nd Place)',
-              '(Maya, Blender, 3DS MAX)',
+              '(Maya, Blender)',
             ]}
           />
         </div>

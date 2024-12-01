@@ -99,8 +99,4 @@
   .email {
     margin: 3px 0 !important;
   }
-
-  .email:after {
-    content: '\a@gmail.com';
-  }
 }

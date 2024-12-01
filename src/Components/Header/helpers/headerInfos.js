@@ -1,3 +1,3 @@
-export const headerInfosFr = 'Developpeur Full-Stack';
+export const headerInfosFr = "Developpeur d'applications Angular";
 
-export const headerInfosEn = 'Full-Stack Developer';
+export const headerInfosEn = 'Angular developer';
