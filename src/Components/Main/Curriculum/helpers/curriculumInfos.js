@@ -72,7 +72,7 @@ export const curriculumInfosFr = {
     data: [
       {
         sublist: [
-          "Création d'une SPA from scratch en utilisant la MERN stack",
+          "Création d'une SPA from scratch (MERN stack)",
           [
             {
               url: 'https://github.com/benjamin-achouche/sc2-weapon-maker',
@@ -160,7 +160,7 @@ export const curriculumInfosEn = {
     data: [
       {
         sublist: [
-          'Creation of a SPA from scratch using the MERN stack',
+          'Creation of a SPA from scratch (MERN stack)',
           [
             {
               url: 'https://github.com/benjamin-achouche/sc2-weapon-maker',

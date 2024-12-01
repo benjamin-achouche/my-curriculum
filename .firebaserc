@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "cv-benjamin-achouche"
-  }
+  },
+  "targets": {
+    "cv-benjamin-achouche": {
+      "hosting": {
+        "CV-Benjamin-ACHOUCHE": [
+          "cv-benjamin-achouche"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

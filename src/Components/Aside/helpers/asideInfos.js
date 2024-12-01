@@ -1,6 +1,6 @@
 export const asideInfosFr = {
   about:
-    "Issu d'une reconversion professionnelle en autodidacte, puis au sein d'une formation à Epitech, je suis actuellement développeur d'applications spécialisé en Angular",
+    "Après un début de carrière en tant qu'ingénieur aéronautique, guidé par ma passion pour la programmation, j'ai entrepris une reconversion en autodidacte, puis au sein d'une formation à Epitech, pour devenir développeur front-end spécialisé en Angular.",
   skillsText:
     "Curieux, polyvalent et rigoureux, je maîtrise les différentes techniques de création d'une application web et je m'applique à écrire du code maintenable et bien testé.",
   skillsListItems: ['FRONT-END', 'BACK-END', 'AUTRES'],
@@ -18,7 +18,7 @@ export const asideInfosFr = {
     'MariaDB / MongoDB / Mongoose',
     'PHP / Symfony',
   ],
-  others: ['Git / GitHub', 'Microsoft Azure', 'Firebase'],
+  others: ['Git / GitHub', 'Microsoft Azure', 'Firebase', 'Heroku'],
   language: ['Anglais : Niveau C1'],
   interests: [
     'Astronomie',
@@ -30,7 +30,7 @@ export const asideInfosFr = {
 
 export const asideInfosEn = {
   about:
-    'Coming from a professional retraining, first self-taught, then within an education at the Epitech school, I am currently an Angular developer',
+    'After starting a career as an aeronautical engineering, guided by my passion for programming, I undertook a professional retraining, first self-taught, then within an education at the Epitech school, to become an Angular developer.',
   skillsText:
     'Curious, versatile and rigourous, I know the different technical steps required to create web applications and I take pride in to writing maintainable and well tested code.',
   skillsListItems: ['FRONT-END', 'BACK-END', 'AUTRES'],
@@ -48,7 +48,7 @@ export const asideInfosEn = {
     'MariaDB / MongoDB / Mongoose',
     'PHP / Symfony',
   ],
-  others: ['Git / GitHub', 'Microsoft Azure', 'Firebase'],
+  others: ['Git / GitHub', 'Microsoft Azure', 'Firebase', 'Heroku'],
   language: ['English : C1 Level'],
   interests: [
     'Astronomy',
