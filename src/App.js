@@ -1,25 +1,45 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+import ProfilePicture from './Components/ProfilePicture/ProfilePicture.js';
+import Header from './Components/Header/Header.js';
+import Aside from './Components/Aside/Aside.js';
+import Main from './Components/Main/Main.js';
+
+const App = () => {
+  const [language, setLanguage] = useState('Français');
+  const [smallScreen, setSmallScreen] = useState(false);
+
+  const languageSwitchHandler = () => {
+    language === 'Français' ? setLanguage('English') : setLanguage('Français');
+  };
+
+  const smallScreenModalHandler = () => {
+    setSmallScreen(!smallScreen);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <React.Fragment>
+      <ProfilePicture />
+      <header>
+        <div className="burger-button" onClick={smallScreenModalHandler}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <Header language={language} />
+        <div className="button-container">
+          <button className="language-button" onClick={languageSwitchHandler}>
+            {language === 'Français' ? 'English' : 'Français'}
+          </button>
+        </div>
       </header>
-    </div>
+      <div className="main-aside-container">
+        <Aside language={language} smallScreen={smallScreen} />
+        <Main language={language} smallScreen={smallScreen} />
+      </div>
+    </React.Fragment>
   );
-}
+};
 
 export default App;

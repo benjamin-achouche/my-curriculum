@@ -1,0 +1,27 @@
+.picture-container {
+  height: 225px;
+  width: 161px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: -1.5%;
+  left: 1%;
+  z-index: 5;
+}
+
+.picture-container img {
+  margin-top: 50px;
+  margin-right: 10px;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 925px) {
+  .picture-container {
+    display: none;
+  }
+}

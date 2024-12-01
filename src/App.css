@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  margin-left: 8%;
+  width: 92%;
+  height: 20%;
+  z-index: 2;
+  position: fixed;
+  background-color: rgb(169, 194, 205);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 35%;
+  padding: 0 30px 30px 0;
+}
+
+.language-button {
+  background-color: rgb(59, 116, 131);
   color: white;
+  font-size: large;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.language-button:active {
+  background-color: rgb(90, 157, 173);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-aside-container {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.burger-button {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  top: 75px;
+  left: 9px;
+}
+
+.burger-button div {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  margin: 3px 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 925px) {
+  header {
+    margin-left: 0;
+    width: 100%;
+    height: 20%;
+    z-index: 2;
+    position: fixed;
+    background-color: rgb(169, 194, 205);
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 25%;
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+    top: 120px;
+    right: 5px;
+  }
+
+  .language-button {
+    font-size: medium;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .burger-button {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -1,0 +1,106 @@
+.aside-container {
+  height: 100%;
+  width: 33%;
+  z-index: 1;
+  position: fixed;
+  left: 0%;
+  transition: left 0.5s ease-in-out;
+}
+
+.aside-hide-text {
+  opacity: 1;
+  max-height: 600px;
+  /* transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out; */
+  transition: font-size 0.5s ease-in-out;
+}
+
+.aside-top-div {
+  height: 20%;
+  background-color: rgb(77, 143, 160);
+}
+
+.aside-text-container {
+  height: 80%;
+  width: 100%;
+  background-color: rgb(77, 143, 160);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.aside-text {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.aside-text h3 {
+  color: rgb(27, 90, 107);
+  transition: font-size 0.5s ease-in-out;
+}
+
+.aside-text p,
+.aside-text li {
+  color: rgb(230, 230, 230);
+}
+
+.aside-text p {
+  margin: 8px 0 8px 0;
+}
+
+.aside-text article {
+  padding: 0 8% 0 8%;
+  margin: 10px 0 10px 0;
+}
+
+.email:after {
+  content: '@gmail.com';
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 925px) {
+  .aside-container {
+    left: -33%;
+  }
+
+  .small-screen-modal {
+    left: 0%;
+  }
+
+  .aside-hide-text {
+    font-size: x-small;
+    /* max-height: 0px;
+    opacity: 0; */
+  }
+
+  ul.aside-hide-text {
+    padding-left: 15px;
+  }
+
+  .aside-text article,
+  .aside-text p,
+  .aside-text ul {
+    margin: 0;
+  }
+
+  .subComponentTitle {
+    margin: 8px 0;
+  }
+
+  .aside-text h3 {
+    font-size: small;
+  }
+
+  .email {
+    margin: 3px 0 !important;
+  }
+
+  .email:after {
+    content: '\a@gmail.com';
+  }
+}
